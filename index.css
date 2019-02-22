@@ -38,7 +38,13 @@
 		justify-content: center;
 		align-items: center;
 		font-family: var(--sans);
+		transition: 1s;
  }
+  .container__block__users:hover{
+	transition: 1s;
+	opacity: .7;
+	transform: rotateY(80deg);
+  }
  .container__elements__admins{
  	width: var(----widthContainerBlock);
 	background-image: linear-gradient(to right, orange,red);
@@ -66,6 +72,11 @@
 	padding: var(--marginBlocks);
 	margin: var(--marginBlocks);
  }
+   .container__block__admins:hover{
+	transition: 1s;
+	opacity: .7;
+	transform: rotateY(80deg);
+  }
  .title{
  	width:  100%;
  	text-align: center;
