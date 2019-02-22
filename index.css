@@ -2,15 +2,16 @@
  	--heightBlock: 100px;
  	--widthBlock: 100px;
 	--widthContainerBlock: 59%;
-	--marginBlocks: .5em;
+	--marginBlocks: .8em;
+	padding: var(--marginBlock);em;
 	--sans: sans-serif;
  }
  .container{
  	width: 100%;
  	height: 100%;
-	background-color: #666;
 	display: flex;
 	justify-content: center;
+
  }
  .container__elements__users{
 	width: var(----widthContainerBlock);
@@ -20,6 +21,8 @@
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	margin: var(--marginBlocks);
+	padding: var(--marginBlocks);
  }
 	
 	/*elements*/
@@ -44,6 +47,10 @@
 	justify-content: center;
 	align-items: center;
 	flex-wrap: wrap;
+	margin: var(--marginBlocks);
+	padding: var(--marginBlocks);
+
+	 
  }
  /*elements*/
  .container__block__admins{
